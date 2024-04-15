@@ -2,7 +2,7 @@ import { InputRef, message } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { fetchIssues } from 'modules/redux/boards/boards.thunk';
-import { AppDispatch } from 'modules/redux/types';
+import { AppDispatch } from 'modules/redux/redux.types';
 import { setCurrentBoard } from 'modules/redux/boards/boards.slice';
 import { selectBoards } from 'modules/redux/boards/boards.selectors';
 import { IInputs } from './header.types';

@@ -39,6 +39,7 @@ const SearchBar = () => {
 				render={({ field }) => (
 					<Input.Search
             {...field}
+             data-testid="searchbar-iput"
             ref={ref}
             enterButton="Load issues"
 						autoComplete="on"
@@ -46,7 +47,7 @@ const SearchBar = () => {
 						onBlur={onBlur}
 						loading={state === STATE_MACHINE.LOADING}
 						placeholder={placeholder}
-						status={errors.request && 'error'}
+            status={errors.request && 'error'}
 					/>
 				)}
 			/>

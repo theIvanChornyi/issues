@@ -1,5 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
-import { RootState } from 'modules/redux/types';
+import { RootState } from 'modules/redux/redux.types';
 
 export const selectCurrentRepoUrl = (state: RootState) =>
 	state.boards.currentBoard;

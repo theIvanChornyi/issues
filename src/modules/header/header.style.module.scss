@@ -1,0 +1,30 @@
+@import 'modules/shared/styles/variables.style.scss';
+@import 'modules/shared/styles/mixins.style.scss';
+
+.controls {
+	margin: 24px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wrapper {
+	@include center-container;
+	gap: 30px;
+}
+
+.buttons {
+	display: flex;
+	gap: 16px;
+}
+
+.container {
+	@include center-container;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.text {
+	color: $text-color;
+	font-size: 14px;
+}

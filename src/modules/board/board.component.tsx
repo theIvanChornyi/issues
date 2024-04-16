@@ -8,7 +8,9 @@ import { useDnD } from './useDnD.hook';
 
 const Board = () => {
 	const board = useSelector(selectCurrentBoard);
-	const { onDragEnd } = useDnD(board);
+  const { onDragEnd } = useDnD(board);
+  
+  console.log('board :>> ', board);
 
   const columns = Object.keys(board).map(key => {
 		const { title, issues } = board[key];

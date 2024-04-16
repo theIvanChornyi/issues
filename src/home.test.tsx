@@ -59,7 +59,6 @@ describe('Initial page', () => {
 
 describe('Errors', () => {
   test('Show empty page', () => {
-    // store.error.code = 400
     const store: IBoardsState = {
       currentBoard: '',
       repos: {},

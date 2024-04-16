@@ -40,10 +40,10 @@ const App = () => {
         {curError.code === 404 && (
           <div data-testid="wrong-repo-page">
             <Result
-            status={curError.code}
-            title={curError.code}
-            subTitle="Wrong repo URL"
-          />
+              status={curError.code}
+              title={curError.code}
+              subTitle="Wrong repo URL"
+            />
           </div>
         )}
       </Container>

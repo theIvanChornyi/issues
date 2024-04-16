@@ -1,3 +1,3 @@
 export interface IInputs {
-	request: string;
+  request: string;
 }

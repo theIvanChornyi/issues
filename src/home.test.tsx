@@ -29,31 +29,31 @@ function notExistInHomepage(testId: string) {
 
 describe('Initial page', () => {
   test('Header in page', () => {
-    isExistInHomepage('header')
+    isExistInHomepage('header');
   });
 
   test('Searchbar exist in page', () => {
-    isExistInHomepage('searchbar')
+    isExistInHomepage('searchbar');
   });
 
   test('Title exist in page', () => {
-    isExistInHomepage('page-title')
+    isExistInHomepage('page-title');
   });
 
   test('Controls not exist in page', () => {
-    notExistInHomepage('repo-controls')
+    notExistInHomepage('repo-controls');
   });
 
   test('Board not exist in page', () => {
-    notExistInHomepage('repo-board')
+    notExistInHomepage('repo-board');
   });
 
   test('Empty page not exist in page', () => {
-    notExistInHomepage('empty-page')
+    notExistInHomepage('empty-page');
   });
 
   test('Error not exist in page', () => {
-    notExistInHomepage('error')
+    notExistInHomepage('error');
   });
 });
 

@@ -1,22 +1,22 @@
 @import 'modules/shared/styles/variables.style.scss';
 
 .column__list {
-	height: calc(100% - 52px);
+  height: calc(100% - 52px);
 
-	margin-top: 20px;
-	padding: 20px 20px 4px;
+  margin-top: 20px;
+  padding: 20px 20px 4px;
 
-	border: $simple_border;
-	border-radius: 8px;
+  border: $simple_border;
+  border-radius: 8px;
 
-	background-color: $white;
+  background-color: $white;
 }
 
 .column__title {
-	text-align: center;
-	color: $text-color;
+  text-align: center;
+  color: $text-color;
 }
 
 .column__item {
-	margin-bottom: 16px;
+  margin-bottom: 16px;
 }

@@ -4,7 +4,7 @@ import { kCaseTransform } from '../../shared/utils/number-k-case-transform.util'
 import style from '../header.style.module.scss';
 
 interface IProps {
-	starsCount: number;
+  starsCount: number;
 }
 
 const Stars: FC<IProps> = ({ starsCount }) => {
